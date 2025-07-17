@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" /> <!-- Define o conjunto de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Torna o site responsivo em dispositivos móveis -->
+  <link rel="icon" href="./Icon/alphaicon.ico" type="image/x-icon" /> <!-- Ícone que aparece na aba do navegador -->
+  <title>Alpha Broadcast</title> <!-- Título da página -->
+
+  <!-- Link para o arquivo CSS externo que estiliza o site -->
+ <link rel="stylesheet" href="./Style.css" />
+<link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 630px)">
+
+
+  <!-- Importação de fontes do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&family=Poppins:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Container principal do site -->
+  <div id="Travel">
+
+    <!-- ====== Início do Cabeçalho ====== -->
+    <header>
+      <!-- Logo no cabeçalho -->
+      <div class="logoheader">
+        <img src="./Assets/logoheader.png" alt="LogoAlpha_Header" />
+      </div>
+
+       <!-- Botão de menu hambúrguer -->
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">&#9776;</button>
+
+      <!-- Script do botão de chat -->
+      <script>
+        function abrirChat() {
+          var url = 'https://broadmedia.tomticket.com/chat/balao/EP42696/2732544P27032020021858'
+            + '?ts=' + new Date().getTime()
+            + '&ref=' + encodeURIComponent(document.URL);
+
+          // Abrir em uma nova janela pop-up
+          window.open(url, '_blank', 'width=400,height=600,resizable=yes');
+        }
+      </script>
+
+      <!-- Menu de navegação principal -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html">Início</a></li>
+          <li class="dropdown">
+            <a href="./serviços.html">Contato</a>
+          </li>
+          <li><a href="./sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ====== Fim do Cabeçalho ====== -->
+
+    <main>
+
+        <div class="suporte-tecnico">
+    <h2>CENTRO TÉCNICO DE REPARO E ASSISTÊNCIA</h2>
+    <p>
+       Por ser um centro especializado, usamos apenas equipamentos de ponta e peças originais para garantir a mais alta qualidade em nossos serviços.  A Alpha Broadcast tem vasta experiência com as maiores marcas do campo audiovisual e diante disso oferece ao longo dos anos consultoria e treinamento para diferentes segmentos do mercado, além de soluções e serviços. 
+    </p>
+    <p>
+        Oferecendo assistência técnica para as principais marcas do mercado como:<br>
+        Newtek (Vizrt) | TVU | Sony | Panasonic | AEQ | Teradek | For.A | Blackmagic | Sennheiser | AJA | DataVideo  | Kiloview 
+    </p>
+
+    <iframe src="https://broadmedia.tomticket.com/formulario?id=EP42696&account=2732544P27032020021858" class="iframe-chat"></iframe>
+
+</div>
+
+
+    </main>
+
+  <footer class="site-footer">
+        <div class="footer-container">
+          <!-- Logo no rodapé -->
+          <div class="footer-logo">
+            <img src="./img/LOGO ALPHA BROADCAST BRANCA - SEM FUNDO.png" alt="Alpha Broadcast Logo"/> 
+          </div>
+
+          <div class="telefone">
+           <p><i class="fa-solid fa-phone" aria-hidden="true"></i> (21) 2010-5247</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> suporte@alphabroadcast.com.br</p>
+            <p class="endereço">Av. Alm. Júlio de Sá Bierrenbach, 200 - Barra da Tijuca, Rio de Janeiro</p>
+          </div>
+
+          <hr>
+
+          <!-- Ícones de redes sociais -->
+          <div class="footer-social">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/profile.php?id=61578173223078" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.8v-6.9H8v-2.9h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4H15c-1.3 0-1.7.8-1.7 1.6v1.9h3l-.5 2.9h-2.5v6.9A10 10 0 0 0 22 12"/></svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/alpha.broadcast_/" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-5 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+            </a>
+      <!-- =================== FIM DO RODAPÉ =================== -->
+
+    </div>
+
+          <!-- Direitos autorais -->
+          <p class="footer-copy">&copy; 2025 Alpha Broadcast Services. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+
+    <!-- ====== Fim do Rodapé ====== -->
+
+  </div>
+<script src="./JavaScript/script.js"></script>
+</body>
+</html>
